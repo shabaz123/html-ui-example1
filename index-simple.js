@@ -86,7 +86,7 @@ function container(_page)
 phantom.create(function(ph) {
   console.log("bridge initiated");
   ph.createPage(function(page){
-    page.open("file:///home/pi/development/tftstat/index-simple.html", function (status) {
+    page.open("file:///home/pi/development/uitest/index-simple.html", function (status) {
       console.log("page opened");
       page.evaluate(function() { return document.title; }, function(result) {});
       container(page);
