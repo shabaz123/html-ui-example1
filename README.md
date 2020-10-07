@@ -55,3 +55,4 @@ See **full blog post** at Element14 - <strong><a taget="_blank" title="Element14
 
 ### License
 BY-NC-SA (non-commercial use only)
+*Note: This license type is under review and will be updated shortly*
