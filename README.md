@@ -53,5 +53,5 @@ For an example application, a simple procedure was devised for the left and righ
 ### More Information
 See **full blog post** at Element14 - <strong><a taget="_blank" title="Element14.com" href="http://www.element14.com/community/community/raspberry-pi/raspberrypi_projects/blog/2015/09/27/html-based-any-device-user-interface-for-embedded-applications">here</a></strong>
 
-### License:
+### License
 BY-NC-SA (non-commercial use only)
