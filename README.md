@@ -1,7 +1,5 @@
 ## An HTML-Based *Any-Device* User Interface for Embedded Applications
 
----
-
 **Shortcuts:**  |
 [Introduction](#introduction) |
 [An Example](#an-example-home-lighting-controller) |
