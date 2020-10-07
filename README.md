@@ -1,12 +1,14 @@
-# An HTML-Based *Any-Device* User Interface for Embedded Applications
+## An HTML-Based *Any-Device* User Interface for Embedded Applications
+
+---
 
 **Shortcuts:**  |
-[Introduction]() |
-[An Example]() |
-[Why HTML?]() |
-[Design Overview]() |
-[More Information]() |
-[License]() |
+[Introduction](#introduction) |
+[An Example](#an-example-home-lighting-controller) |
+[Why HTML?](#why-do-this-with-html) |
+[Design Overview](#design-overview) |
+[More Information](#more-information) |
+[License](#license) |
 
 ---
 
@@ -17,7 +19,7 @@ It enables the use of typical hardware (such as buttons, LED displays, TFT LCD d
 
 **The aim** is that the same code can be used to build very different looking user interfaces. Furthermore the same code could also be used to provide remote management from a browser. The views can be displayed differently to suit the hardware. With a large screen TFT LCD the user’s experience will be different to a (say) 16-character single-line display, but both should be possible with the same code.
 
-### An Example – Home Lighting Controller
+### An Example (Home Lighting Controller)
 Just as an example, a low-cost home lighting controller with constrained user interface hardware may have just push-buttons to switch on/off lights in different rooms of the house, and LEDs (one LED per room) to indicate which rooms are switched on.
 
 ![Graphic showing two different input devices with common code for control](img/lighting-controller-example.jpg)
@@ -51,7 +53,7 @@ The two sides of the diagram interact with each other through the ability to rem
 For an example application, a simple procedure was devised for the left and right sides to communicate through this remote function execution and variable peeking method, and it is discussed next. But first, a brief note about the software libraries and platforms used in this project: Node.JS is fast becoming a reasonably mature platform for projects, however the module that connects it to PhantomJS and PhantomJS itself are not designed for implementing user interfaces; they are designed for testing web pages so they are being used beyond their original scope. It is hoped that over time improvements can occur as these platforms continue to be developed.
 
 ### More Information
-See **full blog post** at Element14 - **[here](http://www.element14.com/community/community/raspberry-pi/raspberrypi_projects/blog/2015/09/27/html-based-any-device-user-interface-for-embedded-applications "Element14.com")**
+See **full blog post** at Element14 - <strong><a taget="_blank" title="Element14.com" href="http://www.element14.com/community/community/raspberry-pi/raspberrypi_projects/blog/2015/09/27/html-based-any-device-user-interface-for-embedded-applications">here</a></strong>
 
 ### License:
 BY-NC-SA (non-commercial use only)
